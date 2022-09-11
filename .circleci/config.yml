@@ -8,7 +8,7 @@ jobs:
 
   build:
     docker:
-      - image: puthon3.7.3-strectch
+      - image: python3.7.3-strectch
     working_directory: ~/repo     
     steps:
       - checkout
