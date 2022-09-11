@@ -8,7 +8,7 @@ jobs:
 
   build:
     docker:
-      - image: python3.7.3-strectch
+      - image: ython:3.7.3-stretch
     working_directory: ~/repo     
     steps:
       - checkout
